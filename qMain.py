@@ -10,6 +10,8 @@ import matplotlib.pyplot as plt
 from matplotlib import cm
 import seaborn as sns
 
+#test
+
 def checkMakeDirs(dname):
 
     if not os.path.exists(dname):
@@ -223,6 +225,8 @@ def createCompositeSumImage(inDir, TemplateIndex=0, ptSize=1, singleColor=False,
     # ax = sns.heatmap(fimg[:,:,2])
     # plt.show(ax)
     return fimg, tmask
+
+
 
 
 
